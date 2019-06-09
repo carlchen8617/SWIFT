@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1022460222898C4E001935A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1022460122898C4E001935A5 /* AppDelegate.swift */; };
+		1022460422898C4E001935A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1022460322898C4E001935A5 /* ViewController.swift */; };
+		1022460722898C4E001935A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1022460522898C4E001935A5 /* Main.storyboard */; };
+		1022460A22898C4E001935A5 /* swinLibBorrowSystem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1022460822898C4E001935A5 /* swinLibBorrowSystem.xcdatamodeld */; };
+		1022460C22898C4F001935A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1022460B22898C4F001935A5 /* Assets.xcassets */; };
+		1022460F22898C4F001935A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1022460D22898C4F001935A5 /* LaunchScreen.storyboard */; };
+		1022461922898F50001935A5 /* GoogleBookData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1022461822898F50001935A5 /* GoogleBookData.swift */; };
+		1022461B228ACD6C001935A5 /* BookRatings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1022461A228ACD6C001935A5 /* BookRatings.swift */; };
+		1022461D228AE196001935A5 /* BookDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1022461C228AE196001935A5 /* BookDetailsCell.swift */; };
+		1064F21C228EAF5E00E24B1E /* db.json in Resources */ = {isa = PBXBuildFile; fileRef = 1064F21B228EAF5E00E24B1E /* db.json */; };
+		1064F21E228ED00F00E24B1E /* browsebooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1064F21D228ED00F00E24B1E /* browsebooks.swift */; };
+		1064F220228EEBA300E24B1E /* bookdetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1064F21F228EEBA300E24B1E /* bookdetails.swift */; };
+		10BC1E732292E1390092F803 /* myBorrowedBooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BC1E722292E1390092F803 /* myBorrowedBooks.swift */; };
+		10BC1E77229422D20092F803 /* userDB.json in Resources */ = {isa = PBXBuildFile; fileRef = 10BC1E76229422D20092F803 /* userDB.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		102245FE22898C4E001935A5 /* swinLibBorrowSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swinLibBorrowSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1022460122898C4E001935A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1022460322898C4E001935A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1022460622898C4E001935A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1022460922898C4E001935A5 /* swinLibBorrowSystem.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = swinLibBorrowSystem.xcdatamodel; sourceTree = "<group>"; };
+		1022460B22898C4F001935A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1022460E22898C4F001935A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1022461022898C4F001935A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1022461822898F50001935A5 /* GoogleBookData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleBookData.swift; sourceTree = "<group>"; };
+		1022461A228ACD6C001935A5 /* BookRatings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRatings.swift; sourceTree = "<group>"; };
+		1022461C228AE196001935A5 /* BookDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailsCell.swift; sourceTree = "<group>"; };
+		1064F21B228EAF5E00E24B1E /* db.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = db.json; sourceTree = "<group>"; };
+		1064F21D228ED00F00E24B1E /* browsebooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = browsebooks.swift; sourceTree = "<group>"; };
+		1064F21F228EEBA300E24B1E /* bookdetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookdetails.swift; sourceTree = "<group>"; };
+		10BC1E722292E1390092F803 /* myBorrowedBooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myBorrowedBooks.swift; sourceTree = "<group>"; };
+		10BC1E76229422D20092F803 /* userDB.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = userDB.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		102245FB22898C4E001935A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		102245F522898C4E001935A5 = {
+			isa = PBXGroup;
+			children = (
+				1064F21A228EAE8D00E24B1E /* JsonData */,
+				1022460022898C4E001935A5 /* swinLibBorrowSystem */,
+				102245FF22898C4E001935A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		102245FF22898C4E001935A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				102245FE22898C4E001935A5 /* swinLibBorrowSystem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1022460022898C4E001935A5 /* swinLibBorrowSystem */ = {
+			isa = PBXGroup;
+			children = (
+				10BC1E722292E1390092F803 /* myBorrowedBooks.swift */,
+				1022461822898F50001935A5 /* GoogleBookData.swift */,
+				1022460122898C4E001935A5 /* AppDelegate.swift */,
+				1022460322898C4E001935A5 /* ViewController.swift */,
+				1022460522898C4E001935A5 /* Main.storyboard */,
+				1022460B22898C4F001935A5 /* Assets.xcassets */,
+				1022460D22898C4F001935A5 /* LaunchScreen.storyboard */,
+				1022461022898C4F001935A5 /* Info.plist */,
+				1022460822898C4E001935A5 /* swinLibBorrowSystem.xcdatamodeld */,
+				1022461A228ACD6C001935A5 /* BookRatings.swift */,
+				1022461C228AE196001935A5 /* BookDetailsCell.swift */,
+				1064F21D228ED00F00E24B1E /* browsebooks.swift */,
+				1064F21F228EEBA300E24B1E /* bookdetails.swift */,
+			);
+			path = swinLibBorrowSystem;
+			sourceTree = "<group>";
+		};
+		1064F21A228EAE8D00E24B1E /* JsonData */ = {
+			isa = PBXGroup;
+			children = (
+				1064F21B228EAF5E00E24B1E /* db.json */,
+				10BC1E76229422D20092F803 /* userDB.json */,
+			);
+			path = JsonData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		102245FD22898C4E001935A5 /* swinLibBorrowSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1022461322898C4F001935A5 /* Build configuration list for PBXNativeTarget "swinLibBorrowSystem" */;
+			buildPhases = (
+				102245FA22898C4E001935A5 /* Sources */,
+				102245FB22898C4E001935A5 /* Frameworks */,
+				102245FC22898C4E001935A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swinLibBorrowSystem;
+			productName = swinLibBorrowSystem;
+			productReference = 102245FE22898C4E001935A5 /* swinLibBorrowSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		102245F622898C4E001935A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Chen, Carl";
+				TargetAttributes = {
+					102245FD22898C4E001935A5 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 102245F922898C4E001935A5 /* Build configuration list for PBXProject "swinLibBorrowSystem" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 102245F522898C4E001935A5;
+			productRefGroup = 102245FF22898C4E001935A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				102245FD22898C4E001935A5 /* swinLibBorrowSystem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		102245FC22898C4E001935A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1022460F22898C4F001935A5 /* LaunchScreen.storyboard in Resources */,
+				1064F21C228EAF5E00E24B1E /* db.json in Resources */,
+				10BC1E77229422D20092F803 /* userDB.json in Resources */,
+				1022460C22898C4F001935A5 /* Assets.xcassets in Resources */,
+				1022460722898C4E001935A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		102245FA22898C4E001935A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1064F21E228ED00F00E24B1E /* browsebooks.swift in Sources */,
+				1022460A22898C4E001935A5 /* swinLibBorrowSystem.xcdatamodeld in Sources */,
+				1022461D228AE196001935A5 /* BookDetailsCell.swift in Sources */,
+				1022461922898F50001935A5 /* GoogleBookData.swift in Sources */,
+				1022461B228ACD6C001935A5 /* BookRatings.swift in Sources */,
+				1064F220228EEBA300E24B1E /* bookdetails.swift in Sources */,
+				10BC1E732292E1390092F803 /* myBorrowedBooks.swift in Sources */,
+				1022460422898C4E001935A5 /* ViewController.swift in Sources */,
+				1022460222898C4E001935A5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1022460522898C4E001935A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1022460622898C4E001935A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1022460D22898C4F001935A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1022460E22898C4F001935A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1022461122898C4F001935A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1022461222898C4F001935A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1022461422898C4F001935A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = swinLibBorrowSystem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Swin.swinLibBorrowSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1022461522898C4F001935A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = swinLibBorrowSystem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Swin.swinLibBorrowSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		102245F922898C4E001935A5 /* Build configuration list for PBXProject "swinLibBorrowSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1022461122898C4F001935A5 /* Debug */,
+				1022461222898C4F001935A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1022461322898C4F001935A5 /* Build configuration list for PBXNativeTarget "swinLibBorrowSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1022461422898C4F001935A5 /* Debug */,
+				1022461522898C4F001935A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1022460822898C4E001935A5 /* swinLibBorrowSystem.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1022460922898C4E001935A5 /* swinLibBorrowSystem.xcdatamodel */,
+			);
+			currentVersion = 1022460922898C4E001935A5 /* swinLibBorrowSystem.xcdatamodel */;
+			path = swinLibBorrowSystem.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 102245F622898C4E001935A5 /* Project object */;
+}

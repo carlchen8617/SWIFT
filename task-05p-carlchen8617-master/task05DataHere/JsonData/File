@@ -1,0 +1,26 @@
+{
+    "Melbourne": [
+        "Australia",
+        10
+    ],
+    "Beijing": [
+        "China",
+        8
+    ],
+    "Rome": [
+        "Italy",
+        3
+    ],
+    "London": [
+        "UK",
+        0
+    ],
+    "Paris": [
+        "France",
+        1
+    ],
+    "Wellington": [
+        "NZ",
+        11
+    ]
+}

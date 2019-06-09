@@ -1,0 +1,98 @@
+{
+            "Sid": "AllowGetPut",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:sts::992962979097:assumed-role/linux-default-role/i-0b53ea2ef256cfeb7"
+            },
+            "Action": [
+                "s3:GetObject",
+                "s3:PutObject",
+                "s3:ListBucket"
+            ],
+            "Resource": [
+                "arn:aws:s3:::tabcorp-i2eia-adhocloads-dev-8537/*",
+                "arn:aws:s3:::tabcorp-i2eia-adhocloads-dev-8537/"
+            ]
+        },
+
+
+
+
+
+      jjjjj
+
+      {
+      "Version": "2008-10-17",
+      "Statement": [
+          {
+              "Sid": "DenyIncorrectEncryptionHeader",
+              "Effect": "Deny",
+              "Principal": "*",
+              "Action": "s3:PutObject",
+              "Resource": "arn:aws:s3:::tabcorp-i2eia-adhocloads-dev-8537/*",
+              "Condition": {
+                  "StringNotEquals": {
+                      "s3:x-amz-server-side-encryption": "aws:kms"
+                  }
+              }
+          },
+          {
+              "Sid": "DenyUnSecureCommunications",
+              "Effect": "Deny",
+              "Principal": "*",
+              "Action": "s3:*",
+              "Resource": "arn:aws:s3:::tabcorp-i2eia-adhocloads-dev-8537/*",
+              "Condition": {
+                  "Bool": {
+                      "aws:SecureTransport": "false"
+                  }
+              }
+          },
+          {
+              "Sid": "DenyUnEncryptedObjectUploads",
+              "Effect": "Deny",
+              "Principal": "*",
+              "Action": "s3:PutObject",
+              "Resource": "arn:aws:s3:::tabcorp-i2eia-adhocloads-dev-8537/*",
+              "Condition": {
+                  "Null": {
+                      "s3:x-amz-server-side-encryption": "true"
+                  }
+              }
+          },
+          {
+              "Sid": "AddCannedACL",
+              "Effect": "Deny",
+              "Principal": "*",
+              "Action": [
+                  "s3:PutObject",
+                  "s3:PutObjectAcl"
+              ],
+              "Resource": "arn:aws:s3:::tabcorp-i2eia-adhocloads-dev-8537/*",
+              "Condition": {
+                  "StringEquals": {
+                      "s3:x-amz-acl": "public-read"
+                  }
+              }
+          },
+          {
+              "Sid": "IPAllow",
+              "Effect": "Deny",
+              "Principal": "*",
+              "Action": "s3:*",
+              "Resource": "arn:aws:s3:::tabcorp-i2eia-adhocloads-dev-8537/*",
+              "Condition": {
+                  "StringNotLike": {
+                      "aws:sourceVpce": "vpce-111cf778"
+                  },
+                  "NotIpAddress": {
+                      "aws:SourceIp": [
+                          "10.0.0.0/8",
+                          "203.2.125.8/30",
+                          "203.47.147.8/30"
+                      ]
+                  }
+              }
+          }
+      ]
+  }
