@@ -1,0 +1,47 @@
+[
+    
+    
+    
+    {
+        "Id": 1,
+        "City": "London",
+        "Country": "UK",
+        "TZ": "0"
+    },
+    
+    {
+        "Id": 2,
+        "City": "Paris",
+        "Country": "France",
+        "TZ": "+1"
+    },
+    
+    {
+        "Id": 3,
+        "City": "Rome",
+        "Country": "Italy",
+        "TZ": "+3"
+    },
+    
+    {
+        "Id": 4,
+        "City": "Beijing",
+        "Country": "China",
+        "TZ": "+8"
+    }
+    ,
+    
+    {
+        "Id": 5,
+        "City": "Melbourne",
+        "Country": "Australia",
+        "TZ": "+10"
+    },
+    {
+        "Id": 6,
+        "City": "Wellington",
+        "Country": "New Zealand",
+        "TZ": "+11"
+    }
+    
+]
